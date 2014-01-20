@@ -1,0 +1,52 @@
+<Angel>
+Well Spirit, now that you've warmed up$It is time to properly begin our task.
+
+<Angel>
+Destroy as much as you can, you will gain reputation by doing so.
+
+<Angel>
+The archangels have also scattered some$holy beacons across the land.
+
+<Angel>
+They are to be used to clean up the debris$that all this destruction is creating.$Pick them up and drop them off at designated holy zones.
+
+<Angel>
+They will then activate and signal the archangels$to smite that area with holy power.$Helping them will greatly increase your reputation.
+
+<Death>
+What a waste.
+
+<Angel>
+Excuse me?
+
+<Death>
+All that filth is perfect for my new Limbo.$It would make for a very disparaging atmosphere.
+
+<Death>
+Brings a tear to my eye...
+
+<Death>
+Spirit, how about you help me decorate Limbo.$My reapers have dropped statues for you to move.$Plant them at those zones instead.
+
+<Angel>
+Sacrilage!$Spirit, don't be fooled!
+
+<Death>
+Exactly, be strengthened instead. I can grant you power.$Power will get you respect.$Although personally, fear is a more efficient catalyst...
+
+<Death>
+You know how to pick up objects don't you?$It should be easy for you...
+
+<Angel>
+Q should do the trick!$To pick up and to throw!$Make sure it lands inside the dropoff zone.
+
+<Death>
+Q?? What are you babbling about?
+
+<Death>
+Regardless, remember to cause enough destruction.$Otherwise, I'm sure even the Angel would agree$that you would be wasting both of our time.
+
+<Death>
+Also, make good use of the river,$it may speed things up a bit.
+<ENDFILE>
+

@@ -1,0 +1,53 @@
+<Angel>
+Greetings spirit!$I am a messenger of the Creator.$You may simply call me Angel for now.
+<Angel>
+As you may have noticed, the apocalypse is commencing.$Destroy as many non-natural objects as you can so that$we may reset this world. 
+
+<Angel>
+Since you have just awakened,$it is understandable if you wish to build your stamina.$Let's start with this area over here, do your best! 
+
+<Angel>
+I've also created a rendezvous location.$Meet me there when you have finished your task.$It will be bathed in a soothing green light.
+
+<Death>
+My, my... Aren't we having fun? It seems I'm late to this party.
+
+<Angel>
+Death! What are you doing here?
+
+	
+<Death>
+Why so hostile?$I'm just doing my job, keeping track of the dead.
+
+<Death>
+Unfortunately, this extinction event requires$far more space than Limbo can hold.
+
+<Angel>
+I thought Limbo was infinite.
+
+<Death>
+Hah! You foolish little angel; space is quickly running out$and I require more room.
+
+<Death>
+As such, I think I'll extend Limbo into this world for a bit,$at least until this apocalypse nonsense is over with.$Honestly, just when I was about to go on vacation.
+
+	
+<Angel>
+I will not stand here and let you do this!
+
+	
+<Death>
+Then stand somewhere else.
+
+<Death>
+You have not the authority nor power to tell me what to do.$Besides, the Creator doesn't care, you were there for the speech.$This is only temporary... I think.
+	
+<Angel>
+...Fine, but this tornado works for me.
+
+<Death>
+Is that so?$Tornado, do my bidding and I will make you even stronger.
+
+<Death>
+I suppose you can still use that disturbing$meeting point to report to me as well.
+<ENDFILE>

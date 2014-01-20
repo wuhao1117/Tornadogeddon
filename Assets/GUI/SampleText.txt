@@ -1,0 +1,14 @@
+<Angel>
+Hi, this is the first line, it should be really long.$And this is the second line just because.
+<BREAK>
+
+<Death>
+This is the third line.
+<BREAK>
+
+<Angel>
+Fourth Line. $Stupid$test
+<BREAK>
+
+FINAL LINE.
+<ENDFILE>

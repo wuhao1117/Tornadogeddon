@@ -1,0 +1,42 @@
+<Death>
+How did we end up here?
+
+<Angel>
+I don't know, I did not transport us.$And I definitely would not have taken you.
+
+<?????>
+GREETINGS.
+
+<Angel>
+!!!
+
+<Death>
+Interesting, so he has awakened.
+
+<Death>
+The Creator is certainly pulling out all the stops.$I did not expect the help of this old one to be called upon.
+
+<Angel>
+Who or what is he?
+
+<Death>
+Cthulhu.
+
+<Cthulhu>
+THIS IS MY TESTING AREA, YOUR SPIRIT SHALL HELP ME.
+
+<Cthulhu>
+THAT SIGN SHALL EXPLAIN EVERYTHING.$YOU WILL NOW READ IT.
+
+<Death>
+I would do as he says.$Angering him would not be wise.$Unless you both are tired of living.
+
+<Angel>
+Even you fear him?
+
+<Death>
+Hardly, he is no match for me.
+
+<Angel>
+Well Spirit, it seems we better listen.$The sign is over there.$Let's move closer and see what it says.
+<ENDFILE>
