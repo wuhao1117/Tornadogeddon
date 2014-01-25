@@ -69,7 +69,6 @@ public class TornadoController : MonoBehaviour {
 				nextPosition = hitInfo.point;
 			}
 		}
-		
 		Vector3 diffPosition = nextPosition - gameObject.transform.position;
 	
 		// restrict tornaod to traverse hilly terrains but it should be able to go downhill
