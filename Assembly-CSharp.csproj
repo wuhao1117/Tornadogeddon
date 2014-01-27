@@ -203,6 +203,61 @@
      <Compile Include="Assets\Scripts\Katherine Anderson\StormScript.cs" />
      <Compile Include="Assets\Scripts\Katherine Anderson\TitleScript.cs" />
      <Compile Include="Assets\SharkScript.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\P2T.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\DelaunayTriangle.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\AdvancingFront.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\AdvancingFrontNode.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweep.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepBasin.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepConstraint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepContext.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepDebugContext.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepEdgeEvent.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepPointComparator.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\PointOnEdgeException.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\ITriangulatable.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Orientation.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\Contour.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\Polygon.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonPoint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonSet.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonUtil.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Sets\ConstrainedPointSet.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Sets\PointSet.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationAlgorithm.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationConstraint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationContext.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationDebugContext.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationMode.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationPoint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\PointGenerator.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\PolygonGenerator.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\TriangulationUtil.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\FixedArray3.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\FixedBitArray3.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\MathUtil.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Point2D.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Point2DList.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Rect2D.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicArcsAndColumns.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicCollidingSphere.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicCompoundObject.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicExplodingFloor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicExplodingGoblin.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicGlobalFracturing.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\UltimateFracturingFPS.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\ConcaveColliderInterface.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\ExplosionSource.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Fracture.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedChunk.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedObject.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturingUtilDieTimer.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\MeshData.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\SpaceTree.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Split.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\SupportPlane.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Triangulate.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\MeshCombiner\Scripts\CombinedMesh.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.0.9 f5.txt" />
      <None Include="Assets\GUI\Bonus.txt" />
@@ -215,6 +270,7 @@
      <None Include="Assets\GUI\Level3.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Ultimate Game Tools\Fracturing\!Readme - v1.11.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
@@ -244,17 +300,12 @@
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\GUI\intro.txt" />
+     <None Include="Assets\Ultimate Game Tools\MeshCombiner\!Readme - v1.02.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{BE446273-35B2-9381-11CE-945E70026440}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{59C1C988-B77B-196A-5D0F-B651F7AF7B8E}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
