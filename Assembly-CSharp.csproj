@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\Cheng Xie\ParticleColor.cs" />
      <Compile Include="Assets\Scripts\Cheng Xie\Sharknado.cs" />
      <Compile Include="Assets\Scripts\Cheng Xie\SignScript.cs" />
+     <Compile Include="Assets\Scripts\Cheng Xie\TerrainTrees.cs" />
      <Compile Include="Assets\Scripts\Hao Wu\Buoyancy.cs" />
      <Compile Include="Assets\Scripts\Hao Wu\DropOffField.cs" />
      <Compile Include="Assets\Scripts\Hao Wu\DungeonCamera.cs" />
@@ -134,6 +135,7 @@
      <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\SupportPlane.cs" />
      <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Triangulate.cs" />
      <Compile Include="Assets\Ultimate Game Tools\MeshCombiner\Scripts\CombinedMesh.cs" />
+     <Compile Include="Assets\global1.cs" />
      <None Include="Assets\GUI\Bonus.txt" />
      <None Include="Assets\GUI\Level3.txt" />
      <None Include="Assets\Ultimate Game Tools\Fracturing\!Readme - v1.11.txt" />

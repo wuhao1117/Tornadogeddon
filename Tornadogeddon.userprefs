@@ -1,12 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Hao Wu\TornadoAffects.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\global.cs">
     <Files>
-      <File FileName="Assets\Ultimate Game Tools\Fracturing\!Readme - v1.11.txt" Line="4" Column="29" />
-      <File FileName="Assets\NGUI\ReadMe - 3.0.9 f5.txt" Line="2" Column="30" />
-      <File FileName="Assets\Scripts\Hao Wu\TornadoAffects.cs" Line="109" Column="16" />
+      <File FileName="Assets\Scripts\Hao Wu\TornadoAffects.cs" Line="1" Column="1" />
+      <File FileName="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedChunk.cs" Line="449" Column="46" />
       <File FileName="Assets\Scripts\Hao Wu\TornadoController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\DelaunayTriangle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Cheng Xie\Destructible.cs" Line="1" Column="1" />
+      <File FileName="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Hao Wu\DungeonCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\UltimateFracturingFPS.cs" Line="1" Column="1" />
+      <File FileName="Assets\global.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
