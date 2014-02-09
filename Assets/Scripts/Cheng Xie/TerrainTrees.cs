@@ -1,47 +1,29 @@
 using UnityEngine;
 using System.Collections;
+using System.IO;
 
 public class TerrainTrees : MonoBehaviour {
 	
 	public GameObject debrisPreFab;
 	public GameObject tornado;
 	TerrainData terrain;
+	TreeInstance[] origTrees;
+	
 	// Use this for initialization
-	void Start () {
-	terrain = Terrain.activeTerrain.terrainData;
+	void Start () 
+	{
+		terrain = Terrain.activeTerrain.terrainData;
+		
+		origTrees = terrain.treeInstances;
+		
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 		ArrayList instances = new ArrayList();
-		
-		
-        float maxDistance = float.MaxValue;
-		TreeInstance[] allTrees = terrain.treeInstances;
-		
-		Vector3 closestTreePosition;
-		
-		int closestIndex;
-		/*for (int i = 0; i < allTrees.Length; i++)
-		{
-			TreeInstance currentTree = allTrees[i];
-			Vector3 worldPosition = Vector3.Scale(currentTree.position, terrain.size) + Terrain.activeTerrain.transform.position;
-			
-			float distance = Vector3.Distance(currentTreeWorldPosition, tornado.transform.position);
-			
-			if (distance < maxDistance)
-            {
-
-                maxDistance = distance;
-                closestIndex = i;
-                closestTreePosition = worldPosition;
-
-            }
-		}
-		*/
-		
-		
+				
 		foreach (TreeInstance tree in terrain.treeInstances)
 		{
 			Vector3 worldPosition = Vector3.Scale(tree.position, terrain.size) + Terrain.activeTerrain.transform.position;
@@ -52,7 +34,6 @@ public class TerrainTrees : MonoBehaviour {
 			//Vector3 length = tree.position - tornado.transform.position;
 			//print(length.magnitude);
 			float distance = treeFloat -  tornado.transform.position.magnitude;
-			//print(test);
 			if ((distance)< 6)
 			{
 				KillTree(tree, worldPosition);
@@ -62,11 +43,10 @@ public class TerrainTrees : MonoBehaviour {
 				instances.Add(tree);
 				
 			}
-			//tree.
 		}
+		terrain.treeInstances = (TreeInstance[])instances.ToArray(typeof(TreeInstance));
 		float[,] heights = terrain.GetHeights(0, 0, 0, 0);
 		terrain.SetHeights(0, 0, heights);
-		terrain.treeInstances = (TreeInstance[])instances.ToArray(typeof(TreeInstance));
 		
 	
 	}
@@ -77,7 +57,10 @@ public class TerrainTrees : MonoBehaviour {
 		{
 			Instantiate(debrisPreFab, position, Quaternion.identity);
 		}
-		
-		//Destroy (deadObject);		
+	}
+	
+	void OnApplicationQuit() 
+	{
+		terrain.treeInstances = origTrees;
 	}
 }
