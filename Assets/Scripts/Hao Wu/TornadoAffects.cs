@@ -48,8 +48,8 @@ public class TornadoAffects : MonoBehaviour {
 		else 
 			print ("Cannot find ReferencePlane!");
 		GameObject g = GameObject.Find ("GlobalObject");
-		globalObj = g.GetComponent<Global>();
-		if(!isRelic) globalObj.debrisQueue.Enqueue(gameObject);
+		//globalObj = g.GetComponent<Global>();
+		//if(!isRelic) globalObj.debrisQueue.Enqueue(gameObject);
 		deathCountDown = Random.Range(5f, 20f);
 		deathTimer = 0f;
 		isAffected = false;

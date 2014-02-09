@@ -34,7 +34,7 @@ public class TornadoController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		GameObject g = GameObject.Find ("GlobalObject");
-		globalObj = g.GetComponent<Global>();
+		//globalObj = g.GetComponent<Global>();
 		gameObject.rigidbody.velocity = initialVelocity.normalized * maxSpeed;
 //		lastVelocity = gameObject.rigidbody.velocity;
 		mainTerrain = GameObject.FindGameObjectWithTag("Terrain");	
@@ -117,8 +117,8 @@ public class TornadoController : MonoBehaviour {
 //		differenceVelocity = gameObject.rigidbody.velocity - lastVelocity;
 //		globalObj.adjustCurrentHealth(-healthDecrease * differenceVelocity.magnitude);
 //		lastVelocity = gameObject.rigidbody.velocity;
-		if(globalObj.activateTimer) globalObj.timeLeft -= Time.deltaTime;
-		if(globalObj.timeLeft < 0f) globalObj.end();
+		//if(globalObj.activateTimer) globalObj.timeLeft -= Time.deltaTime;
+		//if(globalObj.timeLeft < 0f) globalObj.end();
 		
 		if(Input.GetKeyDown(KeyCode.Q))
 		{
